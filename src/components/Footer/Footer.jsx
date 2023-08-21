@@ -64,7 +64,7 @@ function Footer() {
             
         </Col>
 
-        <div className='copyright'>Copyright par Bigup-Conseils</div>
+        <div className='copyright'>Copyright : Bigup-Conseils</div>
 
       </Row>
    
