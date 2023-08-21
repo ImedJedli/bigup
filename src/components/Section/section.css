@@ -1,0 +1,32 @@
+
+
+.section__content h2{
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.title {
+    animation: typing 4s ;
+    color: #00B1DA;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.section-info {
+   margin: 90px;
+    opacity: 0;
+    transform: translateY(100px); /* Adjust the starting position */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .section-info.active {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    }
+    
+
+    .valeur .box .card{
+        background-color: #c6c1c1;
+    }
+    .card {
+        width: 300%;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 1.3rem 1.2rem;
+        text-align: center;
+        box-shadow: 0 4px 6px rgb(0, 0, 0); /* Add a box shadow */
+        opacity: 0.7;
+        transform: scale(1); /* Initial scale value */
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+        opacity: 1;
+        transform: scale(1.05); 
+        box-shadow: -5px 4px 6px #00B1DA;
+    }
+
+
+
+    
+    .box{
+        display: flex;
+    }
+    
+    .card i{
+        font-size: 3rem;
+        text-align: center;
+        margin: 2rem;
+        align-items: center;
+    
+    }
+    
+    .card h5{
+    text-align: center
+    ;}
+
+    .valeur h1{
+        text-align: center;
+        
+    }
+    
+    .valeur h1 + hr {
+        width: 50px;
+        height: 4px; /* Set the height of the line */
+        background-color: black; 
+        margin: 0 auto; 
+      }
+
+      .valeur {
+        opacity: 0;
+        transform: translateY(100px); /* Adjust the starting position */
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      }
+      
+      .valeur.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
