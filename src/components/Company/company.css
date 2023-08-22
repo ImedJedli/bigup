@@ -1,9 +1,5 @@
 
-.about__content hr{
 
-    width: 30%;
-
-}
 
 .company {
     opacity: 0;
@@ -14,5 +10,11 @@
   .company.active {
     opacity: 1;
     transform: translateY(0);
+  }
+  .about__content  hr {
+    width: 80px;
+        height: 2px; 
+        background-color: black; 
+        
   }
 

@@ -22,7 +22,7 @@
 .section-info {
    margin: 90px;
     opacity: 0;
-    transform: translateY(100px); /* Adjust the starting position */
+    transform: translateY(100px); 
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
   
