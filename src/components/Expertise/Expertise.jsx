@@ -42,10 +42,13 @@ function Expertise() {
               Une offre complète digitale, métier et technologique
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              deserunt pariatur iusto error illo, quia nam accusamus veritatis
-              molestiae voluptates maxime veniam nulla nostrum aspernatur unde,
-              nisi voluptas! Deleniti, unde?
+            Nos compétences métiers et  technologiques sur l'ensemble de 
+nos prestations sont centralisées au sein d'un même bureau ce 
+qui nous permet de travailler en synergie avec vous.
+
+Nous étudions et comprenons avec soin vos attentes 
+pour vous offrir ainsi les solutions les plus optimales
+et les plus innovantes.
             </p>
           
 
