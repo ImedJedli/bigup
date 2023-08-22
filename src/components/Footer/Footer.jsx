@@ -16,7 +16,10 @@ function Footer() {
           <a href="https://www.linkedin.com/company/bigup-conseils/" target="_blank">
             <img src="/assets/images/linkedin.svg" alt="" />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100092784734779" target="_blank">
+          <a href="#" target="_blank">
+            <img src="/assets/images/instagram.svg" alt="" />
+          </a>
+          <a href="#" target="_blank">
             <img src="/assets/images/facebook.svg" alt="" />
           </a>
         </div>
@@ -55,12 +58,18 @@ function Footer() {
             </div>
 
             <div className='contact'>
-            <i class="ri-phone-fill"></i> 06 99 24 05 55 1
+            <i class="ri-phone-fill"></i> +33 7 50 14 48 37
             </div>
+
+            <div className="contact">
+<i class="ri-whatsapp-fill"></i> +33 7 50 14 48 37
+</div>
+
             <div className='contact'>
             <i class="ri-mail-line" > </i>rs@bigup-conseils.fr 
             </div>
 
+           
             
         </Col>
 
