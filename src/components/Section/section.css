@@ -30,3 +30,23 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  .image {
+ height:20% ;  
+    margin-top: -30%;
+}
+
+.centered {
+    text-align: center;
+    margin-right: -100%;
+   margin-top: -88%;
+    color: #f8f3f3;
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    font-style: italic;
+    display: block; 
+  white-space: nowrap;
+  overflow: hidden;
+}
+
